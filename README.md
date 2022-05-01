@@ -1,2 +1,2 @@
-# sample
-its a first github proj for me
+# smart calc  
+its a page that will help you split the payments between people.
