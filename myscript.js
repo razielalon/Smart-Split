@@ -1,5 +1,5 @@
 function home(){
-    document.getElementById("main").style.backgroundColor = "#ffffff";
+    location.reload();
 }
 
 function countinpN(){
