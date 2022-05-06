@@ -1,11 +1,13 @@
-function home(){
-    location.reload();
-}
-
 function countinpN(){
     var inps = document.getElementsByClassName("MainInputs");
     return(inps.length);
 }
+
+
+function home(){
+    location.reload();
+}
+
 
 function countinpP(){
     var inps = document.getElementsByClassName("MainInputs1");
@@ -205,7 +207,7 @@ function split(){
     /* prints the transaction to console */
     for(h=0;h<transaction.length;h++){
         var para = document.createElement("p");
-        var node = document.createTextNode(transaction[h][0] + "  TO  " + transaction[h][1]+ "  SUM OF  " + transaction[h][2]);
+        var node = document.createTextNode(transaction[h][0] + "  needs to pay  " + transaction[h][1]+ "  sum of  " + transaction[h][2]);
         para.appendChild(node);
         para.className = "par";
         var element = document.getElementById("transDiv");
