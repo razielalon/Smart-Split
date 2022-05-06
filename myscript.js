@@ -217,3 +217,11 @@ function split(){
     }
  
 }
+
+$(document).ready(function(){
+        $('#transDiv').click(function(){
+            $('#headTrans').css('font-size','300%');
+            $('.par').css('font-size','150%');
+            $('#transDiv').css('width', 'fit-content');
+        });
+});
